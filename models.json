@@ -1,0 +1,100 @@
+[
+  {
+    "id": "gemini",
+    "name": "Google Gemini",
+    "hasKeys": true,
+    "keyName": "GEMINI_API_KEY",
+    "placeholder": "Loaded from keys.json (or enter sk-...)",
+    "models": [
+      { "value": "gemini-3.5-flash", "label": "Gemini 3.5 Flash (Autonomous, Fast)", "free": true },
+      { "value": "gemini-3.1-flash-lite", "label": "Gemini 3.1 Flash Lite (Ultra-fast Support)", "free": true },
+      { "value": "gemini-2.5-pro", "label": "Gemini 2.5 Pro (Heavyweight Reasoning)", "free": true },
+      { "value": "gemini-2.5-flash", "label": "Gemini 2.5 Flash (Stable Baseline)", "free": true }
+    ]
+  },
+  {
+    "id": "openrouter",
+    "name": "OpenRouter API",
+    "hasKeys": true,
+    "keyName": "OPENROUTER_API_KEY",
+    "placeholder": "sk-or-...",
+    "models": [
+      { "value": "meta-llama/llama-3.3-70b-instruct:free", "label": "Llama 3.3 70B Instruct (Free)", "free": true },
+      { "value": "deepseek/deepseek-chat:free", "label": "DeepSeek V3 Chat (Free)", "free": true },
+      { "value": "google/gemini-2.5-flash:free", "label": "Gemini 2.5 Flash (Free)", "free": true },
+      { "value": "qwen/qwen-2.5-coder-32b-instruct:free", "label": "Qwen 2.5 Coder 32B (Free)", "free": true },
+      { "value": "openai/gpt-4o", "label": "GPT-4o (Paid)", "free": false },
+      { "value": "anthropic/claude-3.5-sonnet", "label": "Claude 3.5 Sonnet (Paid)", "free": false }
+    ]
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI (Direct)",
+    "hasKeys": true,
+    "keyName": "OPENAI_API_KEY",
+    "placeholder": "sk-proj-...",
+    "models": [
+      { "value": "gpt-4o-mini", "label": "GPT-4o Mini (Fast)", "free": false },
+      { "value": "gpt-4o", "label": "GPT-4o (Smart)", "free": false },
+      { "value": "gpt-4-turbo", "label": "GPT-4 Turbo", "free": false }
+    ]
+  },
+  {
+    "id": "groq",
+    "name": "Groq Engine",
+    "hasKeys": true,
+    "keyName": "GROQ_API_KEY",
+    "placeholder": "gsk-...",
+    "models": [
+      { "value": "llama-3.3-70b-versatile", "label": "Llama 3.3 70B (Ultra Fast)", "free": false },
+      { "value": "mixtral-8x7b-32768", "label": "Mixtral 8x7b (8k Context)", "free": false }
+    ]
+  },
+  {
+    "id": "claude",
+    "name": "Anthropic Claude (Direct)",
+    "hasKeys": true,
+    "keyName": "CLAUDE_API_KEY",
+    "placeholder": "sk-ant-...",
+    "models": [
+      { "value": "claude-3-5-sonnet-latest", "label": "Claude 3.5 Sonnet v2", "free": false },
+      { "value": "claude-3-5-haiku-latest", "label": "Claude 3.5 Haiku", "free": false },
+      { "value": "claude-3-opus-latest", "label": "Claude 3 Opus", "free": false }
+    ]
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama / Local Host",
+    "hasKeys": false,
+    "models": [
+      { "value": "qwen2.5-coder:14b", "label": "Qwen 2.5 Coder 14B", "free": true },
+      { "value": "qwen2.5-coder:7b", "label": "Qwen 2.5 Coder 7B", "free": true },
+      { "value": "llama3:8b", "label": "Llama 3 8B", "free": true },
+      { "value": "mistral", "label": "Mistral 7B", "free": true }
+    ]
+  },
+  {
+    "id": "lm_studio",
+    "name": "LM Studio / Local Host",
+    "hasKeys": false,
+    "models": [
+      { "value": "lm-studio-model", "label": "LM Studio Loaded Model", "free": true }
+    ]
+  },
+  {
+    "id": "local_scraper",
+    "name": "Local Research Scraper",
+    "hasKeys": false,
+    "models": [
+      { "value": "hn_so_github", "label": "HN + SO + GitHub Tracker", "free": true }
+    ]
+  },
+  {
+    "id": "manual_input",
+    "name": "Manual Input (External AI)",
+    "hasKeys": false,
+    "models": [
+      { "value": "manual", "label": "Human-In-The-Loop Expert Portal", "free": true }
+    ]
+  }
+]
