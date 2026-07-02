@@ -9,7 +9,8 @@
       { "value": "gemini-3.5-flash", "label": "Gemini 3.5 Flash (Autonomous, Fast)", "free": true },
       { "value": "gemini-3.1-flash-lite", "label": "Gemini 3.1 Flash Lite (Ultra-fast Support)", "free": true },
       { "value": "gemini-2.5-pro", "label": "Gemini 2.5 Pro (Heavyweight Reasoning)", "free": true },
-      { "value": "gemini-2.5-flash", "label": "Gemini 2.5 Flash (Stable Baseline)", "free": true }
+      { "value": "gemini-2.5-flash", "label": "Gemini 2.5 Flash (Stable Baseline)", "free": true },
+      { "value": "gemini-9.9-ultra-super", "label": "🧪 Gemini 9.9 Test Ultra", "free": true }
     ]
   },
   {
