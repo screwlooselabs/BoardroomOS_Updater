@@ -7,10 +7,10 @@
     "placeholder": "Loaded from keys.json (or enter sk-...)",
     "models": [
       { "value": "gemini-3.5-flash", "label": "Gemini 3.5 Flash (Autonomous, Fast)", "free": true },
+      { "value": "gemini-3.5-pro", "label": "Gemini 3.5 Pro (State-of-the-art Reasoning)", "free": true },
       { "value": "gemini-3.1-flash-lite", "label": "Gemini 3.1 Flash Lite (Ultra-fast Support)", "free": true },
       { "value": "gemini-2.5-pro", "label": "Gemini 2.5 Pro (Heavyweight Reasoning)", "free": true },
-      { "value": "gemini-2.5-flash", "label": "Gemini 2.5 Flash (Stable Baseline)", "free": true },
-      { "value": "gemini-9.9-ultra-super", "label": "🧪 Gemini 9.9 Test Ultra", "free": true }
+      { "value": "gemini-2.5-flash", "label": "Gemini 2.5 Flash (Stable Baseline)", "free": true }
     ]
   },
   {
@@ -24,8 +24,29 @@
       { "value": "deepseek/deepseek-chat:free", "label": "DeepSeek V3 Chat (Free)", "free": true },
       { "value": "google/gemini-2.5-flash:free", "label": "Gemini 2.5 Flash (Free)", "free": true },
       { "value": "qwen/qwen-2.5-coder-32b-instruct:free", "label": "Qwen 2.5 Coder 32B (Free)", "free": true },
+      { "value": "zhipu/glm-4-9b-chat:free", "label": "GLM 4 9B Chat (Free)", "free": true },
+      { "value": "z-ai/glm-5.2:free", "label": "GLM 5.2 Chat (Free)", "free": true },
+      { "value": "meta-llama/llama-3-8b-instruct:free", "label": "Llama 3 8B Instruct (Free)", "free": true },
+      { "value": "qwen/qwen-2.5-7b-instruct:free", "label": "Qwen 2.5 7B Instruct (Free)", "free": true },
+      { "value": "qwen/qwen-2.5-72b-instruct:free", "label": "Qwen 2.5 72B Instruct (Free)", "free": true },
+      { "value": "mistralai/mistral-7b-instruct:free", "label": "Mistral 7B Instruct (Free)", "free": true },
+      { "value": "microsoft/phi-3-medium-128k-instruct:free", "label": "Phi-3 Medium 128K (Free)", "free": true },
+      { "value": "sophosympatheia/rogue-rose-103b-v0.2:free", "label": "Rogue Rose 103B (Free)", "free": true },
+      { "value": "deepseek/deepseek-r1", "label": "DeepSeek R1 Reasoning (Paid)", "free": false },
+      { "value": "anthropic/claude-3.5-sonnet", "label": "Claude 3.5 Sonnet (Paid)", "free": false },
+      { "value": "anthropic/claude-3.5-haiku", "label": "Claude 3.5 Haiku (Paid)", "free": false },
+      { "value": "anthropic/claude-3-opus", "label": "Claude 3 Opus (Paid)", "free": false },
       { "value": "openai/gpt-4o", "label": "GPT-4o (Paid)", "free": false },
-      { "value": "anthropic/claude-3.5-sonnet", "label": "Claude 3.5 Sonnet (Paid)", "free": false }
+      { "value": "openai/gpt-4o-mini", "label": "GPT-4o Mini (Paid)", "free": false },
+      { "value": "openai/o1", "label": "OpenAI o1 Reasoning (Paid)", "free": false },
+      { "value": "openai/o1-mini", "label": "OpenAI o1 Mini (Paid)", "free": false },
+      { "value": "openai/o3-mini", "label": "OpenAI o3-mini (Paid)", "free": false },
+      { "value": "meta-llama/llama-3.3-70b-instruct", "label": "Llama 3.3 70B Instruct (Paid)", "free": false },
+      { "value": "meta-llama/llama-3.1-405b-instruct", "label": "Llama 3.1 405B Instruct (Paid)", "free": false },
+      { "value": "x-ai/grok-2", "label": "Grok 2 (Paid)", "free": false },
+      { "value": "x-ai/grok-2-mini", "label": "Grok 2 Mini (Paid)", "free": false },
+      { "value": "zhipu/glm-4-9b-chat", "label": "GLM 4 9B Chat (Paid)", "free": false },
+      { "value": "z-ai/glm-5.2", "label": "GLM 5.2 Chat (Paid)", "free": false }
     ]
   },
   {
@@ -37,6 +58,9 @@
     "models": [
       { "value": "gpt-4o-mini", "label": "GPT-4o Mini (Fast)", "free": false },
       { "value": "gpt-4o", "label": "GPT-4o (Smart)", "free": false },
+      { "value": "o1", "label": "OpenAI o1 Reasoning", "free": false },
+      { "value": "o1-mini", "label": "OpenAI o1 Mini", "free": false },
+      { "value": "o3-mini", "label": "OpenAI o3-mini", "free": false },
       { "value": "gpt-4-turbo", "label": "GPT-4 Turbo", "free": false }
     ]
   },
@@ -47,8 +71,12 @@
     "keyName": "GROQ_API_KEY",
     "placeholder": "gsk-...",
     "models": [
-      { "value": "llama-3.3-70b-versatile", "label": "Llama 3.3 70B (Ultra Fast)", "free": false },
-      { "value": "mixtral-8x7b-32768", "label": "Mixtral 8x7b (8k Context)", "free": false }
+      { "value": "llama-3.3-70b-versatile", "label": "Llama 3.3 70B Versatile", "free": false },
+      { "value": "llama-3.1-8b-instant", "label": "Llama 3.1 8B Instant", "free": false },
+      { "value": "mixtral-8x7b-32768", "label": "Mixtral 8x7B (8k context)", "free": false },
+      { "value": "gemma2-9b-it", "label": "Gemma 2 9B It", "free": false },
+      { "value": "deepseek-r1-distill-llama-70b", "label": "DeepSeek R1 Distill Llama 70B", "free": false },
+      { "value": "deepseek-r1-distill-qwen-32b", "label": "DeepSeek R1 Distill Qwen 32B", "free": false }
     ]
   },
   {
