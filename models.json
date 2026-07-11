@@ -101,7 +101,7 @@
     { "value": "gemma2:9b", "label": "Gemma 2 9B (High-Context Local VRAM)", "free": true },
     { "value": "glm-5.2:cloud", "label": "GLM 5.2 (z.ai Cloud Proxy Target)", "free": true }
   ]
-}
+},
   {
     "id": "lm_studio",
     "name": "LM Studio / Local Host",
