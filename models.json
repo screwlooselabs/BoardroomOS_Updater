@@ -93,14 +93,15 @@
     ]
   },
   {
-    "id": "ollama",
-    "name": "Ollama / Local Host",
-    "hasKeys": false,
-    "models": [
-      { "value": "qwen2.5-coder:14b", "label": "Qwen 2.5 Coder 14B (Local VRAM)", "free": true },
-      { "value": "glm-5.2:cloud", "label": "GLM 5.2 (Cloud-Linked Proxy)", "free": true }
-    ]
-  },
+  "id": "ollama",
+  "name": "Ollama / Local Host",
+  "hasKeys": false,
+  "models": [
+    { "value": "qwen2.5-coder:14b", "label": "Qwen 2.5 Coder 14B (Local VRAM)", "free": true },
+    { "value": "gemma2:9b", "label": "Gemma 2 9B (High-Context Local VRAM)", "free": true },
+    { "value": "glm-5.2:cloud", "label": "GLM 5.2 (z.ai Cloud Proxy Target)", "free": true }
+  ]
+}
   {
     "id": "lm_studio",
     "name": "LM Studio / Local Host",
